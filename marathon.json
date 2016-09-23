@@ -9,7 +9,7 @@
   "container": {
     "type": "DOCKER",
     "docker": {
-      "image": "cstblab/demo:bamboo",
+      "image": "cstblab/demo",
       "network": "BRIDGE",
       "portMappings": [
         { "containerPort": 80, "hostPort": 80, "servicePort": 9000, "protocol": "tcp" }
